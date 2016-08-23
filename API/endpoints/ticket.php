@@ -23,8 +23,8 @@
  */
 
   require($_SERVER['DOCUMENT_ROOT'].'/WDA/API/classes/HandleRequest.php')
-  ho json_encode($response);
-/create a request Handl
+  echo json_encode($response);
+  //create a request Handl
   $requestHandler = new HandleRequest();
 
   //get the part of the url after .../ticket
