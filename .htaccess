@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^user(.*)$ /WDA/API/endpoints/user.php?endpoint=$1 [NC,QSA]
+RewriteRule ^comment(.*)$ /WDA/API/endpoints/comment.php?endpoint=$1 [NC,QSA]
+RewriteRule ^ticket(.*)$ /WDA/API/endpoints/ticket.php?endpoint=$1 [NC,QSA,L]

@@ -1,0 +1,99 @@
+.navbar{
+    font-family: "Karla", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: 700;
+    color: black;
+    letter-spacing: -0.02em;
+    font-size: 15px;
+    border-radius: 0px;
+    border: 0;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    height: 63px;
+}
+
+.navbar-default > .navbar-header > a.navbar-brand{
+    color: black;
+    font-weight: 700;
+    padding-left: 0px;
+    letter-spacing: -0.02em;
+    font-size: 15px;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.navbar-default > .navbar-header > a.navbar-brand:hover{
+    color: #D0021B;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.navbar-default > .navbar-header > a.navbar-brand .icon:hover{
+    color: #D0021B;
+}
+
+a.navbar-brand:hover{
+    color: #D0021B;
+}
+
+/*Sets hamburger menu button's border to transparent*/
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+}
+
+/*Hamburger menu icon style*/
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: black;
+    border-radius: 0;
+    height: 3px;
+}
+
+button.navbar-toggle{
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+button.navbar-toggle.collapsed{
+    margin-right:0;
+    padding-right:0;
+
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+
+/*Navbar links*/
+.navbar-brand,
+.navbar-nav li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+
+.navbar .nav > li > a{
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: rgb(234,234,234);
+    color: #D0021B;
+}
+
+.nav.navbar-nav.navbar-right> li > a.active{
+    background-color: black;
+    color: white;
+}
+
+/*Navbar icons*/
+.icon {
+    padding-right: 3px;
+}
+
+
+/*Active navbar font-awesome styles*/
+a.active > .fa {
+    color: white;
+}

@@ -1,0 +1,94 @@
+/*Heading styles*/
+.faq-title{
+  color: #2C35E4;
+  position: relative;
+}
+
+.faq-title:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 11px;
+  height: 1px;
+  width: 58%;
+  border-bottom: 25px solid yellow;
+  z-index: -1;
+}
+
+
+.faq-header{
+  margin-top: 50px;
+}
+
+.faq-header-text{
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #2C35E4;
+}
+
+
+.faq-ticket-hero{
+  margin-top: 50px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  padding: 20px 40px 40px;
+  background-color: white;
+  border-bottom: 4px solid black;
+}
+
+.faq-ticket-text, .faq-ticket-button{
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+
+/* Custom Boostrap collapse transition override */
+.collapsing {
+  -webkit-transition: height .25s ease;
+  -o-transition: height .25s ease;
+  transition: height .25s ease;
+}
+
+
+/*Collapsible panel styles*/
+.panel.panel-default{
+  border-radius: 0px;
+  border-top: 0px;
+}
+
+.panel-default>.panel-heading, .panel-default>.panel-heading>.panel-title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.panel-default>.panel-heading:hover {
+  background: #fff;
+}
+
+.panel-default>.panel-heading{
+  background: rgb(251,251,251);
+  border-radius: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 2px solid black;
+}
+
+.panel-body, .panel-footer, .panel-footer>a{
+  font-family: "Karla", sans-serif;
+}
+
+.panel-footer, .panel-footer>a{
+  font-size: 12.5px;
+}
+
+.panel-footer>a, .panel-body>a{
+  text-decoration: underline;
+  font-family: inherit;
+  color: #2C35E4;
+}

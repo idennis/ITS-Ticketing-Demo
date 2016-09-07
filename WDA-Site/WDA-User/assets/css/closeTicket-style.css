@@ -1,0 +1,45 @@
+.modal-content{
+    border-radius: 0;
+    border: 0;
+    border-top: 2px black solid;
+    padding: 20px;
+}
+
+.modal-body>p{
+    width: 75%;
+}
+
+.modal-footer{
+    border: 0;
+    text-align: left;
+    padding-top: 0;
+}
+
+.modal-footer > .btn{
+    margin-left: 0px!important;
+    margin-right: 20px;
+}
+
+.closeTicket-modal{
+    padding-top: 10%;
+}
+
+.modal-title-text{
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.modal-backdrop{
+    backdrop-filter: blur(10px);
+}
+
+@media (max-width: 441px) {
+    .closeTicket-modal{
+        width: 100%;
+    }
+
+    .modal-footer.btn-margin-fix > button{
+      margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,186 @@
+/*  This stylesheet is made specifically
+    for the user's individual tickets
+*/
+
+
+.ticket-content-container{
+  margin-top: 10px;
+}
+
+.ticket-info-header-text{
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 0.95em;
+  color: #2C35E4;
+  margin-bottom: 0;
+}
+
+.user-ticket-ticketId{
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.faq-ticket-text, .faq-ticket-button{
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+
+/*Collapsible panel styles*/
+.panel.panel-default{
+  border-radius: 0px;
+  border-top: 0px;
+}
+
+.panel-default>.panel-heading, .panel-default>.panel-heading>.panel-title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.panel-default>.panel-heading:hover {
+  background: #fff;
+}
+
+.panel-default>.panel-heading{
+  background: rgb(251,251,251);
+  border-radius: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 2px solid black;
+}
+
+.panel-body{
+    border-top: 2px solid black;
+}
+
+.individual-ticket-info-row{
+  margin-bottom: 10px;
+}
+
+.panel-body, .panel-comment, .panel-comment>a{
+  font-family: "Karla", sans-serif;
+}
+
+.panel-comment>.ticket-info-header-text{
+  color: black;
+  margin-bottom: 5px;
+}
+.panel-comment>a, .panel-body>a{
+  text-decoration: underline;
+  font-family: inherit;
+  color: #2C35E4;
+}
+
+.panel-comment textarea{
+  resize: vertical;
+}
+
+.add-reply-button{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p.reply-header{
+  font-size: 0.85em;
+  display: inline-block;
+
+}
+
+.fa-statusTag{
+  margin-right: 10px;
+  font-size: 12px;
+  vertical-align: middle;
+  color: #f6f6f6;
+}
+
+.error{
+  color: #D0021B;
+}
+
+button.btn-closeBtn{
+  padding: 6px 20px;
+  background-color: transparent;
+  border-color: #525252;
+  border-radius: 3.5px;
+  color: #525252;
+}
+
+button.btn-closeBtn:hover{
+  background-color: #D0021B;
+  border-color: #D0021B;
+  color: white;
+}
+
+#closeBtn-icon{
+  margin-right: 10px;
+  color: #525252;
+}
+
+.reply-separator{
+  margin: 0;
+  float: none;
+}
+.new-reply-container{
+  background-color: white;
+  padding: 20px 0 20px 0;
+  transition: border-top 0.2s ease-in;
+}
+
+.new-reply-container:last-child{
+  padding-bottom: 0;
+}
+
+.new-reply-container p{
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: padding-left 0.2s ease-in-out;
+}
+
+p.new-reply-text{
+  margin-bottom:0;
+}
+
+.new-reply-bullet{
+  opacity: 1;
+  color: #FFBD2B;
+  display: inline-block;
+  padding-left: 15px;
+  font-size: 0.5em;
+  transition: all 0.2s ease-in-out;
+}
+
+.reply-header-its{
+  color: #D0021B;
+}
+
+#dropdown-status {
+  font-family: "Karla", -apple-system-font, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #525252;
+  width: 160px;
+  padding: 6px 14px;
+  border: 1px solid #525252;
+  transition: all 0.05s ease-in-out;
+}
+
+#dropdown-status:hover{
+  transform: scale(1.05);
+  background: #e9021e;
+  border-color: #e9021e;
+  color: white;
+}
+
+.caret {
+  border-top-color: #525252;
+  margin-left: 7px !important;
+}
+
+.white span {
+  color: #fff !important;
+}

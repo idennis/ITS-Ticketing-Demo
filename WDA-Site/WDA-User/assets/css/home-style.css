@@ -1,0 +1,50 @@
+.follow-up-home-button{
+    position:relative;
+}
+
+.follow-up-home-button.clicked:focus{
+    outline: 0!important;
+}
+
+.follow-up-home-button.clicked:after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 120%;
+    left: 0;
+    right: 0;
+    margin-left: 42.5%;
+    width: 0;
+    border-bottom: solid 10px #e9e9e9;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+}
+
+.follow-up-home-button.:not(.clicked):after{
+    display: none;
+}
+
+.follow-up-hero-div{
+    display:none;
+    padding: 50px;
+    margin-top: 18px;
+    background-color: #e9e9e9;
+}
+
+.follow-up-hero-div p{
+    margin-top: 20px;
+}
+
+.home-follow-up-form{
+    margin-top: 20px;
+}
+
+/* Error message colour */
+.error {
+    color: #D0021B;
+}
+
+
+#ticket-notfound-error{
+  color: #D0021B;
+}
